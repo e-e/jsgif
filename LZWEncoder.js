@@ -276,4 +276,4 @@ const LZWEncoder = function() {
 	return exports;
 };
 
-export default LZWEncoder;
+try { export default LZWEncoder } catch(ex) { };

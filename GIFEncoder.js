@@ -560,4 +560,4 @@ const GIFEncoder = function() {
 
 };
 
-export default GIFEncoder;
+try { export default GIFEncoder } catch(ex) { };

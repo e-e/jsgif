@@ -17,4 +17,4 @@ function encode64(input) {
 	return output;
 }
 
-export default encode64;
+try { export default encode64; } catch (ex) { };

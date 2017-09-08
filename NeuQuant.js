@@ -528,4 +528,4 @@ const NeuQuant = function() {
 	return exports;
 };
 
-export default NeuQuant;
+try { export default NeuQuant } catch(ex) { };
