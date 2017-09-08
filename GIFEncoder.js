@@ -7,7 +7,7 @@
  * @version 0.1 AS3 implementation
  */
 
-GIFEncoder = function() {
+const GIFEncoder = function() {
 
 	for (var i = 0, chr = {}; i < 256; i++)
 		chr[i] = String.fromCharCode(i);
@@ -559,3 +559,5 @@ GIFEncoder = function() {
 	return exports;
 
 };
+
+export default GIFEncoder;
